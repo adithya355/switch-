@@ -1,0 +1,19 @@
+#include<stdio.h>
+main()
+{int a=0;
+printf("pick an item: \n 1. pasta rs179 \n 2. pizza  rs239\n3. french fries  rs99\n4.burger  rs 129\n5.sandwich rs 149 ");
+
+scanf("%d",&a);
+switch(a){
+	case 1:printf("you chose pasta rs179");break;
+	case 2:printf("you chose pizza rs239");break;
+	case 3:printf("you chose french fries rs99");break;
+    case 4 :printf("you chose burger rs129");break;
+    case 5 :printf("you chose sandwich rs149");break;
+    default :printf("choose again");
+
+}
+
+
+return 0;
+}
